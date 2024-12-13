@@ -1,0 +1,15 @@
+.food-tips-list {
+  margin-top: 20px;
+}
+
+.food-tips-list h2 {
+  text-align: center;
+  color: #2c3e50;
+}
+
+.tips-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
